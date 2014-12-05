@@ -1,6 +1,7 @@
 package com.cookiebots.ndlpro;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,6 +34,30 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
+        else if(id == R.id.action_ajout){
+            Intent intent = new Intent(this, AjoutRefugieActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
+        else if(id == R.id.action_recherche){
+            Intent intent = new Intent(this, RechercheActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
+        else if(id == R.id.action_refugie){
+            Intent intent = new Intent(this, RefugieActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
+        else if(id == R.id.action_stock){
+            Intent intent = new Intent(this, StockActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

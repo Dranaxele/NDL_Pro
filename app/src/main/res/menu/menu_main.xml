@@ -2,4 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_ajout" android:title="@string/action_ajout"
+        android:orderInCategory="200" android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_recherche" android:title="@string/action_recherche"
+        android:orderInCategory="200" android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_stock" android:title="@string/action_stock"
+        android:orderInCategory="200" android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_refugie" android:title="@string/action_refugie"
+        android:orderInCategory="200" android:showAsAction="ifRoom" />
 </menu>

@@ -4,5 +4,13 @@
     <string name="app_name">NDL Pro</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_stock">StockActivity</string>
+    <string name="title_activity_refugie">RefugieActivity</string>
+    <string name="title_activity_ajout_refugie">AjoutRefugieActivity</string>
+    <string name="action_ajout">Ajout d\'un réfugié</string>
+    <string name="title_activity_recherche">RechercheActivity</string>
+    <string name="action_recherche">Rechercher un refugié</string>
+    <string name="action_stock">Gestion des stocks</string>
+    <string name="action_refugie">Gestion des refugiés</string>
 
 </resources>

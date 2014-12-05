@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cookiebots.ndlpro.StockActivity"
+            android:label="@string/title_activity_stock" >
+        </activity>
+        <activity
+            android:name="com.cookiebots.ndlpro.RefugieActivity"
+            android:label="@string/title_activity_refugie" >
+        </activity>
+        <activity
+            android:name="com.cookiebots.ndlpro.AjoutRefugieActivity"
+            android:label="@string/title_activity_ajout_refugie" >
+        </activity>
+        <activity
+            android:name="com.cookiebots.ndlpro.RechercheActivity"
+            android:label="@string/title_activity_recherche" >
+        </activity>
     </application>
 
 </manifest>
